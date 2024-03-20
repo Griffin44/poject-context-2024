@@ -8,6 +8,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class LevelLoader : MonoBehaviour
 {
     [SerializeField] private string sceneToLoad;
+    [SerializeField] private string thisScene;
     [SerializeField] private MeshRenderer vignetteMesh;
     private Material vignetteShader;
 
@@ -22,6 +23,11 @@ public class LevelLoader : MonoBehaviour
     {
         vignetteShader.SetFloat("_ApertureSize", 1f);
         StartCoroutine("FadeInVignette");
+    }
+
+    public void ReloadLevel()
+    {
+        SceneManager.LoadScene(thisScene);
     }
 
     //fades screen to black
