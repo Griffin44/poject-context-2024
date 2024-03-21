@@ -2,7 +2,9 @@ using UnityEngine;
 
 public class Dog : MonoBehaviour
 {
-    public void Die() { 
-        Destroy(gameObject);
+    [SerializeField] private Animator dogAnimator;
+
+    public void Die() {
+        dogAnimator.SetBool("IsDead", true);
     }
 }
