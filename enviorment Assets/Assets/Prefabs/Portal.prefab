@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5788985697537021640}
   - component: {fileID: 5571856453354773449}
+  - component: {fileID: 3443897469117428345}
+  - component: {fileID: 557985558208075483}
   m_Layer: 0
   m_Name: Portal
   m_TagString: Untagged
@@ -52,8 +54,50 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 6.5618687, z: 6.322648}
-  m_Center: {x: 0, y: 2.96035, z: -0.049838066}
+  m_Size: {x: 1, y: 6.5618687, z: 1.1794143}
+  m_Center: {x: 0, y: 2.96035, z: -2.621455}
+--- !u!65 &3443897469117428345
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5061865787505421954}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 6.561868, z: 1.1794157}
+  m_Center: {x: 0, y: 2.9603498, z: 2.5018444}
+--- !u!65 &557985558208075483
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5061865787505421954}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1.518311, z: 3.8905768}
+  m_Center: {x: 0, y: 5.482129, z: -0.06977296}
 --- !u!1001 &2398317988042938214
 PrefabInstance:
   m_ObjectHideFlags: 0
