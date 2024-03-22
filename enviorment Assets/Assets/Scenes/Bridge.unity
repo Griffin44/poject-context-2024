@@ -1465,7 +1465,7 @@ ParticleSystem:
   ringBufferLoopRange: {x: 0, y: 1}
   emitterVelocityMode: 1
   looping: 1
-  prewarm: 0
+  prewarm: 1
   playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
@@ -7303,6 +7303,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: black smok
       objectReference: {fileID: 0}
+    - target: {fileID: 8022192626572267388, guid: 53a98e3324cbc384ca33fd0887233043,
+        type: 3}
+      propertyPath: prewarm
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7941,6 +7946,11 @@ PrefabInstance:
     - target: {fileID: 5995052077380308078, guid: 53a98e3324cbc384ca33fd0887233043,
         type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022192626572267388, guid: 53a98e3324cbc384ca33fd0887233043,
+        type: 3}
+      propertyPath: prewarm
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -9824,6 +9834,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1762266692714101628, guid: 56f53e4bbb902144186b89143784b76b,
         type: 3}
+      propertyPath: prewarm
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1762266692714101628, guid: 56f53e4bbb902144186b89143784b76b,
+        type: 3}
       propertyPath: LightsModule.intensityCurve.scalar
       value: 5
       objectReference: {fileID: 0}
@@ -9835,6 +9850,21 @@ PrefabInstance:
     - target: {fileID: 2254787735752081589, guid: 56f53e4bbb902144186b89143784b76b,
         type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2928047442206096180, guid: 56f53e4bbb902144186b89143784b76b,
+        type: 3}
+      propertyPath: prewarm
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2937693041381294488, guid: 56f53e4bbb902144186b89143784b76b,
+        type: 3}
+      propertyPath: prewarm
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3683099379444660081, guid: 56f53e4bbb902144186b89143784b76b,
+        type: 3}
+      propertyPath: prewarm
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6140451247330338010, guid: 56f53e4bbb902144186b89143784b76b,
@@ -9901,6 +9931,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8458948298190462318, guid: 56f53e4bbb902144186b89143784b76b,
+        type: 3}
+      propertyPath: prewarm
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
