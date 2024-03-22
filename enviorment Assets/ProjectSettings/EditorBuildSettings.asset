@@ -14,6 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Bridge.unity
     guid: ee4730ff69bb90b4284f51c55479d5bb
+  - enabled: 1
+    path: Assets/Scenes/Room_Empty.unity
+    guid: 09bd11a5998ea7640bf2cdb1b8e7d785
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: a632808c49eb29a49971a4209a9c3818,
       type: 2}
