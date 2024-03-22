@@ -3222,7 +3222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d2315585b4b9524ea2814db3e82398f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Bridge
+  sceneToLoad: Dog_Gun
   thisScene: Bridge
   vignetteMesh: {fileID: 355417881}
 --- !u!4 &1361420280

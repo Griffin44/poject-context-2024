@@ -209,7 +209,7 @@ PrefabInstance:
     - target: {fileID: 7061047926508491669, guid: 7ea3855b34bb2b74a8f702418190b847,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.8951758
+      value: 1.3271757
       objectReference: {fileID: 0}
     - target: {fileID: 7061047926508491669, guid: 7ea3855b34bb2b74a8f702418190b847,
         type: 3}
@@ -483,7 +483,7 @@ PrefabInstance:
     - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.3000002
+      value: 0.605
       objectReference: {fileID: 0}
     - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
@@ -1397,6 +1397,87 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 548867322}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1153532355
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1153532358}
+  - component: {fileID: 1153532357}
+  - component: {fileID: 1153532356}
+  m_Layer: 0
+  m_Name: DoorLoader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1153532356
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153532355}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1153532357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153532355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 163b8dd58cec4a149a2b61400e9ddff3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnObjectTrigger:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1361420279}
+        m_TargetAssemblyTypeName: LevelLoader, Assembly-CSharp
+        m_MethodName: LoadNextLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!4 &1153532358
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153532355}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.057, y: 1.451, z: -4.123}
+  m_LocalScale: {x: 1.5326, y: 2.7361, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1231030190
 GameObject:
   m_ObjectHideFlags: 0
@@ -2020,8 +2101,8 @@ Transform:
   m_GameObject: {fileID: 1842157629}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.055972, y: 2.236877, z: -5.941006}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 4.0342, y: 2.2912, z: -5.4813}
+  m_LocalScale: {x: 0.83737, y: 0.83737, z: 0.83737}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1231890673}
@@ -2361,7 +2442,7 @@ PrefabInstance:
     - target: {fileID: 3917529088107760690, guid: 015a9f1b72b858f4084aabb81a9e5a5e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.6
+      value: 1.032
       objectReference: {fileID: 0}
     - target: {fileID: 3917529088107760690, guid: 015a9f1b72b858f4084aabb81a9e5a5e,
         type: 3}
@@ -2425,3 +2506,4 @@ SceneRoots:
   - {fileID: 1842157630}
   - {fileID: 882689031}
   - {fileID: 91648407}
+  - {fileID: 1153532358}
