@@ -16,7 +16,6 @@ public class bullet : MonoBehaviour
         print("collided with: " + collision.gameObject.name);
         if (collision.gameObject.TryGetComponent<Health>(out Health objectHealth))
         {
-            print("object has health");
             objectHealth.TakeDamage(1);
         }
         Destroy(gameObject);
@@ -35,7 +34,6 @@ public class bullet : MonoBehaviour
             print("raycast hit: " + hit.transform.gameObject.name);
             if (hit.transform.gameObject.TryGetComponent<Health>(out Health healthObject))
             {
-                print("object has health");
                 healthObject.TakeDamage(1);
             }
             Destroy(gameObject);
